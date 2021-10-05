@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCRIPTNAME=~/bin/wyona.st
+SCRIPTNAME=~/wyona/wyona.st
 JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 
 [ -x $JAVA_HOME ] || exit 0
