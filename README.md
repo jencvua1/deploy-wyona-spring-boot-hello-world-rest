@@ -5,4 +5,4 @@ Server Requirements
   Install openjdk-8-jdk on your linux server.
   
   
-  Create user wyona tyo run java
+  Create user wyona to run java
