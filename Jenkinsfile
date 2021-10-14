@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        server_ip = "18.224.71.91"
+        server_ip = "3.144.234.48"
         server_login = "ubuntu"
         awskey = "~/.ssh/awskey.pem"
     }
