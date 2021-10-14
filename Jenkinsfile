@@ -29,7 +29,7 @@ pipeline {
         }
         stage('restart') {
             steps {
-                sh "ssh -i $awskey $server_login@$server_ip 'if [ ! -w /opt/wyona ]; then sudo mkdir wyona; sudo chown '$server_login:$server_login' /opt/wyona;fi; cp ~/wyona/hello-world-webapp-1.0.0-SNAPSHOT.war /opt/wyona; chmod +x ~/wyona/wyona.st; ~/wyona/wyona.st restart'"      
+                sh "ssh -i $certaws $server_login@$server_ip 'if [ ! -w /opt/wyona ]; then sudo mkdir wyona; sudo chown '$server_login:$server_login' /opt/wyona;fi; cp ~/wyona/hello-world-webapp-1.0.0-SNAPSHOT.war /opt/wyona; chmod +x ~/wyona/wyona.st; ~/wyona/wyona.st restart'"      
 
             }
         }
