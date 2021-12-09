@@ -26,6 +26,7 @@ jobs:
           ls -la /etc
           ls /bin
           netstat -lpn
+          echo "${{ env.VAR3 }}
   job3:
     runs-on: ubuntu-latest
     steps:
