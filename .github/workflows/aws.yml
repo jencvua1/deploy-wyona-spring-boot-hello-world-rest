@@ -1,8 +1,20 @@
-name: hello-world
-on: push
+name: test1
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  my-job:
+  subtest1:
+    runs-on: ubuntu-latest
+    
+    steps:
+    -name: hello message
+     run: echo "hello world"
+    
+  subtest2:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+    -name: buy message
+     run: echo "buy world"
