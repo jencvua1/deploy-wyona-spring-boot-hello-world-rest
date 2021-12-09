@@ -7,6 +7,6 @@ jobs:
   subtest1:
     runs-on: ubuntu-latest
     steps:
-    -name: hello-message
-     run: echo "Hello World!"
+      - name: my-step
+        run: echo "Hello World!"
     
