@@ -1,12 +1,12 @@
 name: test1
-on:
-  push:
-    branches:
-      - main
-jobs:
-  subtest1:
-    runs-on: ubuntu-latest
+  on:
+    push:
+      branches:
+        - main
+  jobs:
+    runs-on: ubuntu-lastest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
-    
+     name: step1
+     run: echo "hello world"
+     name: step2
+     run: echo "how do you do"
