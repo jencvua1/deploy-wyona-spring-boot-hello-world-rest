@@ -9,4 +9,6 @@ jobs:
       steps:
         - name: step1
           run: echo "Hello world!"
+        - name: step2
+          run: echo "Buy world!"
         
