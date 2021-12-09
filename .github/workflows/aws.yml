@@ -27,7 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: fewsteps
-        run: |
-        echo "${{ env.VAR1 }}"
-        echo "The End"
+        run:  echo "${{ env.VAR1 }}"
+
           
