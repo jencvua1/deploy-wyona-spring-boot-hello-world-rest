@@ -8,6 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     -name: hello-message
-     run: echo "hello world"
+     run: echo "Hello World!"
     
-
