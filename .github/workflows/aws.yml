@@ -30,6 +30,7 @@ jobs:
           netstat -lpn
 
   job3:
+    needs: [job2]
     runs-on: ubuntu-latest
     steps:
       - name: fewsteps
