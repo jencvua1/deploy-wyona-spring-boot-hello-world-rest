@@ -1,14 +1,11 @@
 name: test1
-
 on:
   push:
     branches:
       - main
-
 jobs:
   subtest1:
     runs-on: ubuntu-latest
-    
     steps:
     -name: hello message
      run: echo "hello world"
