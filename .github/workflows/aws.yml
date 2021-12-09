@@ -25,5 +25,5 @@ jobs:
     runs-on: centos-latest
     steps:
       -name: fewsteps
-        run: echo "${{ env.VAR1 }}"
+        run: echo "Hello"
           
