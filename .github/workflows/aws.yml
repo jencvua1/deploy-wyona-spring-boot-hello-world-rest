@@ -13,8 +13,4 @@ jobs:
     -name: hello message
      run: echo "hello world"
     
-  subtest2:
-    runs-on: ubuntu-latest
-    steps:
-    -name: buy message
-     run: echo "buy world"
+
