@@ -12,7 +12,7 @@ jobs:
     
     steps:
     -name: hello message
-    run: echo "hello world"
+     run: echo "hello world"
     
   subtest2:
     name: st2
@@ -20,4 +20,4 @@ jobs:
     
     steps:
     -name: buy message
-    run: echo "buy world"
+     run: echo "buy world"
