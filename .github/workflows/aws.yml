@@ -4,7 +4,7 @@ on:
   branches:
     - main
 jobs:
-    jobs1
+    jobs1:
       runs-on: ubuntu-latest
       steps:
         - name: step1
