@@ -26,8 +26,5 @@ jobs:
     runs-on: centos-latest
     steps:
       -name: few-steps
-        run: |
-          echo "${{env.VAR1}}"
-          echo "${{env.VAR2}}"
-          echo "${{env.VAR3}}"
+        run: echo "${{env.VAR3}}"
           
