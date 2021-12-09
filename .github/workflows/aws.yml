@@ -2,6 +2,7 @@ name: test3
 env:
   VAR1: testvar1
   VAR2: testvar2
+  VAR3: test-${{ env.github.sha }}
 on:
   push:
     branches:
@@ -15,15 +16,15 @@ jobs:
       - name: step2
         run: echo "this is job1 step2"
   job2:
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: step1
         run: echo "this is job2 step1"
       - name: step2
         run: echo "this is job2 step2"
   job3:
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: fewsteps
-        run: echo "Hello"
+        run: echo "${{VAR3}}"
           
