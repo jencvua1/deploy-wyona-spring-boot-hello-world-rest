@@ -24,6 +24,6 @@ jobs:
   job3:
     runs-on: centos-latest
     steps:
-      -name: fewsteps
+      - name: fewsteps
         run: echo "Hello"
           
